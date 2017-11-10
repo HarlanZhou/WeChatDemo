@@ -1,0 +1,45 @@
+#search
+{
+	background-color:#F5F5F5;
+	width: 100%;
+	height: 40px;
+	
+}
+
+#search_input
+{
+	height: 26px;
+	width: 96%;
+	background-color: white;
+	border-radius: 4px;	
+}
+
+#search_center
+{
+	height: 24px;
+	width: 60px;
+}
+#search_img{
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/search/查找.svg);
+	height: 18px;
+	width: 18px;
+}
+
+.search_font{
+	font-family: "微软雅黑";
+	font-weight: 100;
+	font-size: 13px;
+	color:#9E9E9E ;
+}
+
+#search_audio_img
+{
+	right: 4px;
+	background-image: url(../img/search/麦克风.svg);
+	background-position: center;
+	background-size: cover;
+	height: 18px;
+	width: 18px;
+}

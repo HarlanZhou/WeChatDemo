@@ -1,0 +1,50 @@
+#nav
+{
+	background-color: #212121;
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+
+#nav_left
+{
+	flex:1;
+	height: 30px;
+}
+#nav_center
+{
+	min-width: 44%;
+	height: 30px;
+}
+#nav_right
+{
+	flex: 1;
+	height: 30px;
+}
+
+
+.nav-font{
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#nva_back{
+	height: 30px;
+	width: 30px;
+	background-image:url(../img/nav/返回.svg);
+	transform: scale(.8);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#function_img{
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+

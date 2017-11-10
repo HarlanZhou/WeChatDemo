@@ -1,0 +1,134 @@
+#chat {
+	/*background-color: azure;*/
+	width: 100%;
+	height: 100px;
+	flex: 1;
+	
+	overflow-y: scroll;
+}
+
+
+.items {
+	/*background-color: #FAFAFA;*/
+	background-color: white;
+	width: 100%;
+	height: 60px;
+}
+
+.items-container{
+	width: 96%;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.items-left
+{
+	width:54px;
+	height:54px;
+}
+.items-center
+{
+	flex: 1;
+	height:54px;
+	flex-flow: column;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.items-right{
+	width: 70px;
+	height: 54px;
+	flex-flow: column;
+}
+
+
+/*对话框格式编辑*/
+.items-photo
+{
+	height: 80%;
+	width: 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*ncikname格式*/
+.nickname
+{
+	font-family: "微软雅黑";
+	color:#212121;
+	font-size: 18px;
+	text-indent: 6px;
+	font-weight: 500;
+}
+/*content格式*/
+.items-msg-content
+{
+	font-family: "微软雅黑";
+	color: gray;
+	font-size: 14px;
+	text-indent: 6px;
+	font-weight: 300;
+	
+	
+	overflow: hidden;
+	text-overflow:ellipsis;/*文字未完*/
+	white-space: nowrap;
+}
+
+
+/*接收时间的字体*/
+.receive-time
+{
+	font-family: "微软雅黑";
+	color: darkgray;
+	font-size: 12px;
+}
+/*静音按钮*/
+.mute
+{
+	
+	background-image: url(../img/chat/不再提醒2.svg);
+	background-repeat: no-repeat;
+	background-size: center;
+	background-position: right;
+	width: 30%;
+	height: 30%;
+
+}
+/*new message*/
+.new-msg
+{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #ef5350;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+}
+
+.items-msg-audio
+{
+	font-family: "微软雅黑";
+	color: darkred;
+	font-size: 14px;
+	text-indent: 6px;
+}
+
+
+.new-msg-with-count
+{
+	min-width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #ef5350;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 8px;
+	text-align: center;
+	line-height: 14px;
+}

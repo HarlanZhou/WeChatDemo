@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 如果在移动端显示, 需要此行代码  -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="stylesheet" href="css/singal.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/container.css" />
+		<link rel="stylesheet" href="css/menu.css" />
+		<link rel="stylesheet" href="css/search.css" />
+		<link rel="stylesheet" href="css/chat.css" />
+	</head>
+	<body>
+		<div id="continter">
+			
+			
+			<div id="singal">
+				<!--信号-->
+				<div id="singal_left" class="flex x-start y-items-center" >
+					<div id="singal_level" class="flex x-around y-items-end ">
+						<div class="singal_strong "></div>
+						<div class="singal_strong "></div>
+						<div class="singal_strong "></div>
+						<div class="singal_strong "></div>
+						<div class="singal_weak "></div>
+					</div>
+					
+					<div id="singal_operator" class=" singal-font flex x-center y-items-center">中国移动</div>
+				</div>
+				
+				<!--时间-->
+				<div id="singal_center" class=" singal-font flex x-center y-items-center " >11:15 AM</div>
+				
+				<!--右侧区域-->
+				<div id="singal_right" class="  flex x-end y-items-center ">
+					<!--其它组件信号-->
+					<div id="singal_item" class="flex x-end y-items-center">
+						<div class="singal_items " style="background-image: url(img/singal/定位.svg); transform: scale(0.9);"></div>
+						<div class="singal_items " style="background-image: url(img/singal/蓝牙.svg); transform: scale(1.2);"></div>
+					</div>
+					
+					<!--电池区域-->
+					<div class="singal-font">10%</div>
+					<div id="battery" >
+						<div id="battery_body"></div>
+					</div>
+					<div id="battery_header"></div>
+					
+				</div>
+				
+			</div>
+			
+			
+			
+			<div id="nav" class="flex x-start y-items-center nav-font">
+				<!--左边部分-->
+				<div id="nav_left" class=" flex x-start y-items-center">
+ 					<div id="nav_back"></div>
+ 					<div id="nav_content">WeChat(20)</div>
+ 				</div>
+ 				
+ 				<!--中间部分-->
+ 				<div id="nav_center" class="flex x-center y-items-center" style="font-weight: 500;">
+ 					<div>对话框(12)</div>
+ 				</div>
+ 				<!--右边部分-->
+ 				<div id="nav_right" class=" flex x-end y-items-center position-relative">
+ 					<div id="function_img" class="position-abs" style="right:6px;background-image: url(img/nav/加.svg); transform: scale(.8);">
+ 					</div>
+ 				</div>
+				
+			</div>
+			
+			
+			
+			
+			
+			
+			<!--dialogue start-->
+			<div id="chat">
+				
+				<!--serach start-->
+				<div id="search" class="flex x-center y-items-center ">
+					<div id="search_input" class="flex x-center y-items-center position-relative">
+						<div id="search_center" class="flex x-center y-items-center search_font ">
+							<div id="search_img"></div>
+							<div id="search_content">搜索</div>
+						</div>
+						
+						<div id="search_audio_img" class=" y-items-center position-abs "></div>
+					</div>
+				</div>
+				<!--search end-->
+				
+				
+				<div class="items flex x-center">
+					<div class="items-container flex x-start y-items-center">
+						
+						<div class="items-left flex x-center y-items-center position-relative">
+							
+							<div class="items-photo " style="background-image: url(img/chat/user/lwz.jpg);"></div>
+							<div class=""></div>
+						</div>
+						
+						<div class="items-center flex x-center">
+							<div class="nickname">毛毛</div>
+							<div class="items-msg-content">你好啊</div>
+						</div>
+						
+						<div class="items-right flex x-around y-items-end">
+							<div class="receive-time">刚刚</div>
+							<div class="mute"></div>
+						</div>
+					</div>	
+				</div>
+				
+				
+				
+				<div class="items flex x-center">
+					<div class="items-container flex x-start y-items-center">
+						
+						<div class="items-left flex x-center y-items-center position-relative">
+							
+							<div class="items-photo " style="background-image: url(img/chat/user/JianLee.jpg);"></div>
+							<div class=""></div>
+						</div>
+						
+						<div class="items-center flex x-center">
+							<div class="nickname">李剑</div>
+							<div class="items-msg-content">川普找我！！！！</div>
+						</div>
+						
+						<div class="items-right flex x-around y-items-end">
+							<div class="receive-time">刚刚</div>
+							<div class="mute"></div>
+						</div>
+					</div>	
+				</div>
+				
+				
+				
+				<div class="items flex x-center">
+					<div class="items-container flex x-start y-items-center">
+						
+						<div class="items-left flex x-center y-items-center position-relative">
+							
+							<div class="items-photo " style="background-image: url(img/chat/user/Donald_J.Trump.jpg);"></div>
+							<div class="new-msg"></div>
+						</div>
+						
+						<div class="items-center flex x-center">
+							<div class="nickname">Donald J.Trump</div>
+							<div class="items-msg-content">Where is Jian Lee ?</div>
+						</div>
+						
+						<div class="items-right flex x-around y-items-end">
+							<div class="receive-time">刚刚</div>
+							<div class="mute"></div>
+						</div>
+					</div>	
+				</div>
+				<!--每条对话框-->
+				<div class="items flex x-center ">
+					<div class="items-container flex x-start y-items-center">
+						<!--照片-->
+						<div class="items-left flex x-center y-items-center position-relative">
+							<div class="items-photo" style="background-image:url(img/chat/user/kobeByrant.jpg);"></div>
+							<div class="new-msg"></div>
+						</div>
+						
+						<!--文字-->
+						<div class="items-center flex x-center ">
+							<div class="nickname"> Kobe Bryant</div>
+							<div class="items-msg-content">Los Angels Lakers</div>
+						</div>
+						
+						<!--时间和静音按钮-->
+						<div class="items-right flex x-around y-items-end ">
+							<div class="receive-time ">1分钟前</div>
+							<div class="mute"></div>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				
+				<div class="items flex x-center ">
+					<div class="items-container flex x-start y-items-center">
+						<!--照片-->
+						<div class="items-left flex x-center y-items-center position-relative">
+							<div class="items-photo" style="background-image:url(img/chat/user/curry.jpg);"></div>
+							<div class="new-msg"></div>
+						</div>
+						
+						<!--文字-->
+						<div class="items-center flex x-center ">
+							<div class="nickname">Stephen Curry</div>
+							<div class="items-msg-content">Cam out there dunking on people now? </div>
+						</div>
+						
+						<!--时间和静音按钮-->
+						<div class="items-right flex x-around y-items-end ">
+							<div class="receive-time ">2分钟前</div>
+							<div class="mute "></div>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				
+				<div class="items flex x-center ">
+					<div class="items-container flex x-start y-items-center">
+						<!--照片-->
+						<div class="items-left flex x-center y-items-center position-relative ">
+							<div class="items-photo" style="background-image:url(img/chat/user/james.jpg);"></div>
+							<div class=""></div>
+						</div>
+						
+						<!--文字-->
+						<div class="items-center flex x-center ">
+							<div class="nickname">LeBron James</div>
+							<div class="items-msg-content">This seriously just made me sad man!! Get well and stronger asap </div>
+						</div>
+						
+						<!--时间和静音按钮-->
+						<div class="items-right flex x-around y-items-end ">
+							<div class="receive-time ">周一</div>
+							<div class="mute "></div>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="items flex x-center ">
+					<div class="items-container flex x-start y-items-center">
+						<!--照片-->
+						<div class="items-left flex x-center y-items-center position-relative ">
+							<div class="items-photo" style="background-image:url(img/chat/user/AndrewNg.jpg);"></div>
+							<div class=""></div>
+						</div>
+						
+						<!--文字-->
+						<div class="items-center flex x-center ">
+							<div class="nickname">Andrew Ng</div>
+							<div class="items-msg-content">Want to break into AI? You can learn Deep Learning from new deeplearning.ai courses on Coursera:</div>
+						</div>
+						
+						<!--时间和静音按钮-->
+						<div class="items-right flex x-around y-items-end ">
+							<div class="receive-time ">周日</div>
+							<div class=""></div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="items flex x-center">
+					<div class="items-container flex x-start y-items-center">
+						
+						<div class="items-left flex x-center y-items-center position-relative">
+							
+							<div class="items-photo " style="background-image: url(img/chat/user/Kai-FuLee.jpg);"></div>
+							<div class="new-msg"></div>
+						</div>
+						
+						<div class="items-center flex x-center">
+							<div class="nickname">Kaifu Lee</div>
+							<div class="items-msg-content">Many technology giant CEOs are stopped by their PR department from telling the truth about job decimation. I am not.</div>
+						</div>
+						
+						<div class="items-right flex x-around y-items-end">
+							<div class="receive-time">2017/10/31</div>
+							<div class="mute"></div>
+						</div>
+					</div>	
+				</div>
+				
+				
+				
+				
+				
+			</div>
+			<!--dialogue end-->
+			
+			
+			<div id="menu" class="flex">
+				<div id="Chats" class="has-border">
+					<div id="Chat_icon" class="img_set flex has-border"></div>
+					<div id="Chat_font" class="menu-font flex x-center y-items-center  ">Chats</div>
+				</div>
+				
+				<div id="Contacts" class="">
+					<div id="Contact_icon" class="img_set "></div>
+					<div id="Contact_font" class="menu-font flex x-center y-items-center">Contacts</div>
+				</div>
+				
+				<div id="Discover" class="">
+					<div id="Discover_icon" class="img_set"></div>
+					<div id="Discover_font" class="menu-font flex x-center y-items-center ">Discover</div>
+				</div>
+				
+				<div id="Me" class="">
+					<div id="Me_icon" class="img_set"></div>
+					<div id="Me_font" class="menu-font flex x-center y-items-center ">Me</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/lib/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/singal.js" ></script>

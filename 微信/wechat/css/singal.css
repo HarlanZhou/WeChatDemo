@@ -1,0 +1,219 @@
+#singal
+{
+	background-color: #212121;
+	width: 100%;
+	height: 30px;
+	display: flex;
+}
+
+#singal_left {
+	flex:3;
+	height: 100%;
+}
+
+#singal_center {
+	flex: 1.5;
+	height: 100%;
+}
+
+#singal_right {
+	flex:3;
+	height: 100%;
+}
+
+
+
+/* singal_level : start */
+#singal_level {
+	height: 100%;
+	width: 44px;
+	margin-left: 4px;
+}
+#singal_level div {
+	margin-bottom: 4px;
+	width: 4px;
+}
+
+#singal_level div:nth-child(1) {
+	height: 8px;
+}
+#singal_level div:nth-child(2) {
+	height: 11px;
+}
+#singal_level div:nth-child(3) {
+	height: 14px;
+}
+#singal_level div:nth-child(4) {
+	height: 17px;
+}
+#singal_level div:nth-child(5) {
+	height: 20px;
+}
+/* singal_level : end */
+
+/*  singal   strong and weak  :  start  */
+.singal_strong {
+	background-color: white;
+	border-radius: 1px 1px 0px 0px;
+	
+}
+
+.singal_weak {
+	border: 1px solid white;
+	border-radius: 1px 1px 0px 0px;	
+}
+/*  singal   strong and weak  :  end  */
+
+/* singal_operator : start */
+#singal_operator {
+	height: 100%;
+	width: 70px;
+}
+/* singal_operator : end */
+
+
+/*   singal-font */ 
+.singal-font {
+	font-weight: 300;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 80%;
+}
+
+
+/* battery : start */
+#battery {
+	width: 36px;
+	height: 13px;
+	border: 1px solid white;
+	margin-left: 3px;
+}
+
+#battery_body {
+	width: 4px;
+	height: 13px;
+	background-color: red;
+}
+
+#battery_header {
+	height: 6px;
+	width: 2px;
+	background-color: white;
+	margin-right: 6px;
+}
+
+/* battery : end */
+
+
+#singal_item
+{
+	flex: 1;
+	height: 16px;
+}
+.singal_items
+{
+	height: 16px;
+	width:  16px;
+	background-position: center;
+	background-size: contain;
+}
+
+
+
+
+
+
+
+/*#power
+{
+	height: 20px;
+	width: 35px;
+	float: right;
+	margin: 2px 5px 0 0;
+}
+/*电量中的有效电量*/
+/*.effect
+{
+	height: 20px;
+	width: 30px;
+	float: left;
+	background-color: darkslategrey;
+	margin: 2.5px 0 2.5px 0;
+	
+	
+	
+	text-align: center;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 10px;
+	font-weight: 700;
+}
+*/
+/*电池中的空白部分*/
+/*
+.blank
+{
+	height: 10px;
+	width: 5px;
+	float: left;
+	margin: 7px 0 5px 0;
+	background-color: darkslategrey;
+	
+	
+}
+
+#si
+{
+	height: 20px;
+	width: 30px;
+	float: left;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.items:nth-child(1)
+{
+	height: 2px;
+	width: 5px;
+	background-color: black;
+	
+}
+.items:nth-child(2)
+{
+	height: 4px;
+	width: 5px;
+	background-color: navajowhite;
+}
+.items:nth-child(3)
+{
+	height: 6px;
+	width: 5px;
+	background-color: black;
+}
+.items:nth-child(4)
+{
+	height: 8px;
+	width: 5px;
+	background-color: black;
+}*/
+
+
+
+/*#power
+{
+	height: 20px;
+	width: 30px;
+	margin: 5px 2px 5px 0;
+	
+	float: right;
+	
+	background-color: darkslategrey;
+	
+}
+#power p{
+	margin: 2.5px 0 2.5px 0;
+	text-align: center;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 10px;
+}*/*/

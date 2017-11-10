@@ -1,0 +1,147 @@
+#menu
+{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 40px;
+	border: 2px solid #F5F5F5;
+}
+
+/*font formulate*/
+.menu-font
+{
+	font-weight: 300;
+	color: #cdcdcd;  /*commom*/
+	font-family: "微软雅黑";
+	font-size: 60%;
+}
+
+
+/*Id选择器*/
+#Chats
+{
+	height: 100%;
+	width: 25%;
+}
+
+#Chat_icon
+{
+	height: 60%;
+	width: 100%;
+	background-image: url(../img/menu/chats.svg);
+	background-position: center;
+	transform: scale();
+	
+}
+#Chats:hover > #Chat_icon
+{
+	width: 100%;
+	height: 60%;
+	background-image: url(../img/menu/chats_push.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#Chats:hover > #Chat_font
+{
+	font-weight: 300;
+	color: #00cc00;  /*commom*/
+	font-family: "微软雅黑";
+	font-size: 60%;
+}
+
+
+
+#Contacts
+{
+	height: 100%;
+	width: 25%;
+}
+
+#Contact_icon
+{
+	height: 60%;
+	width: 100%;
+	background-image: url(../img/menu/contact.svg);
+	background-position: center;
+	
+}
+
+#Contacts:hover > #Contact_icon
+{
+	width: 100%;
+	height: 60%;
+	background-image: url(../img/menu/contact_push.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#Contacts:hover > #Contact_font
+{
+	font-weight: 300;
+	color: #00cc00;  /*commom*/
+	font-family: "微软雅黑";
+	font-size: 60%;
+}
+
+
+
+#Discover
+{
+	height: 100%;
+	width: 25%;
+}
+
+#Discover_icon
+{
+	width: 100%;
+	height: 60%;
+	background-image: url(../img/menu/discover.svg);
+	background-position: center;
+	transform: scale(0.8);
+}
+#Discover:hover > #Discover_icon
+{
+	width: 100%;
+	height: 60%;
+	background-image: url(../img/menu/discover_push.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: scale(0.8);
+}
+#Discover:hover > #Discover_font
+{
+	font-weight: 300;
+	color: #00cc00;  /*commom*/
+	font-family: "微软雅黑";
+	font-size: 60%;
+}
+
+
+
+#Me
+{
+	height: 100%;
+	width: 25%;
+}
+#Me_icon
+{
+	width: 100%;
+	height: 60%;
+	background-image: url(../img/menu/me.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#Me:hover > #Me_icon
+{
+	width: 100%;
+	height: 60%;
+	background-image: url(../img/menu/me_push.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#Me:hover > #Me_font
+{
+	font-weight: 300;
+	color: #00cc00;  /*commom*/
+	font-family: "微软雅黑";
+	font-size: 60%;
+}

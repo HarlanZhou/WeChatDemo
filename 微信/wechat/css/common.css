@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.has-border {
+	border : 1px solid red;
+}
+.flex {
+	display: flex;
+}
+.x-start {
+	justify-content: flex-start;
+}
+.x-end {
+	justify-content: flex-end;
+}
+.x-around {
+	justify-content: space-around;
+}
+.x-between {
+	justify-content: space-between;
+}
+.x-center {
+	justify-content: center;
+}
+.y-items-center {
+	align-items: center;
+}
+.y-items-end {
+	align-items: flex-end;
+}
+
+.position-relative{
+	position: relative;
+}
+
+.position-abs{
+	position: absolute;
+}
+
+.hidden{
+	display: none;
+}
+
+.invisibility{
+	visibility: hidden;
+}
+
+
+.img_set
+{
+	background-repeat:no-repeat;
+}
