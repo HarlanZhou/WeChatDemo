@@ -1,8 +1,5 @@
 #continter{
 
-	
-	
-	
 	width: 100%;
 	height: 100%;
 	
@@ -12,4 +9,13 @@
 	display: flex;
 	flex-flow:column nowrap; 
 	justify-content: space-between;
+	
+}
+
+/*将页面撑起来*/
+#dynamic{
+	width: 100%;
+	height: 100px;
+	flex:1;
+	/*overflow-y:scroll;*/
 }

@@ -1,0 +1,74 @@
+#discover
+{
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5 ;
+	overflow: scroll;
+}
+
+
+
+.discover-bounder
+{
+	width: 100%;
+	padding-top: 1px;
+	margin-top: 15px;
+}
+
+/*每一组组件*/
+.discover-items
+{
+	background-color: white;
+	height:60px;
+	width: 100%;
+	
+}
+
+/*组件内的每个横栏*/
+.discover-container
+{
+	width: 96%;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.discover-left
+{
+	width: 49px;
+	height: 49px;
+}
+
+.discover-center
+{
+	height: 49px;
+	flex: 1;
+}
+
+.discover-right
+{
+	height: 49px;
+	width:64px;
+}
+
+.discover-font
+{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	text-indent: 10px;
+	
+}
+
+.discover-photo
+{
+	height: 90%;
+	width: 90%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.btn-photo
+{
+	height: 30%;
+	width: 30%;
+	transform: scale(1.5);
+}

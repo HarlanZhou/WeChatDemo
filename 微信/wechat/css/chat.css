@@ -1,10 +1,11 @@
 #chat {
 	/*background-color: azure;*/
 	width: 100%;
-	height: 100px;
-	flex: 1;
-	
-	overflow-y: scroll;
+	/*修改页面之  取消了flex 所以所要100%填充页面*/
+	height: 100%;
+	/*整体页面控制*/
+	/*flex: 1;*/
+	overflow: scroll;
 }
 
 

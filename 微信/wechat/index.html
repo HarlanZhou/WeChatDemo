@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 如果在移动端显示, 需要此行代码  -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<meta charset="UTF-8">
+		<title>weChatDemo</title>
+		
+	</head>
+	<body>
+		<div id="continter">
+			
+			
+			<div id="singal">
+				<!--信号-->
+				<div id="singal_left" class="flex x-start y-items-center" >
+					<div id="singal_level" class="flex x-around y-items-end ">
+						<div class="singal_strong "></div>
+						<div class="singal_strong "></div>
+						<div class="singal_strong "></div>
+						<div class="singal_strong "></div>
+						<div class="singal_weak "></div>
+					</div>
+					
+					<div id="singal_operator" class=" singal-font flex x-center y-items-center">中国移动</div>
+				</div>
+				
+				<!--时间-->
+				<div id="singal_center" class=" singal-font flex x-center y-items-center " >11:15 AM</div>
+				
+				<!--右侧区域-->
+				<div id="singal_right" class="  flex x-end y-items-center ">
+					<!--其它组件信号-->
+					<div id="singal_item" class="flex x-end y-items-center">
+						<div class="singal_items " style="background-image: url(img/singal/定位.svg); transform: scale(0.9);"></div>
+						<div class="singal_items " style="background-image: url(img/singal/蓝牙.svg); transform: scale(1.2);"></div>
+					</div>
+					
+					<!--电池区域-->
+					<div class="singal-font">10%</div>
+					<div id="battery" >
+						<div id="battery_body"></div>
+					</div>
+					<div id="battery_header"></div>
+					
+				</div>
+				
+			</div>
+			
+			
+			
+			<div id="nav" class="flex x-between y-items-center nav-font">
+				<!--左边部分-->
+				<div id="nav_left" class=" flex x-start y-items-center invisibility">
+ 					<div id="nav_back"></div>
+ 					<div id="nav_content">WeChat(20)</div>
+ 				</div>
+ 				
+ 				<!--中间部分-->
+ 				<div id="nav_center" class="flex x-center y-items-center" style="font-weight: 500;">
+ 					<div id="nav_center_content">微信(26)</div>
+ 				</div>
+ 				<!--右边部分-->
+ 				<div id="nav_right" class=" flex x-end y-items-center position-relative">
+ 					<div id="function_img" class="position-abs" style="right:6px;background-image: url(img/nav/加.svg); transform: scale(.8);">
+ 					</div>
+ 				</div>
+ 				
+				
+			</div>
+			
+			
+			
+			<!--dynamic part start-->
+			<div id="dynamic">
+			</div>
+			<!--dynamic part end-->
+			
+			
+		
+			
+			
+			
+			<div id="menu" class="flex">
+				<div id="menu-Chats" class="">
+					<div id="Chat_icon" class="img_set flex "></div>
+					<div id="Chat_font" class="menu-font flex x-center y-items-center  ">Chats</div>
+				</div>
+				
+				<div id="menu-Contacts" class="">
+					<div id="Contact_icon" class="img_set "></div>
+					<div id="Contact_font" class="menu-font flex x-center y-items-center">Contacts</div>
+				</div>
+				
+				<div id="menu-Discover" class="">
+					<div id="Discover_icon" class="img_set"></div>
+					<div id="Discover_font" class="menu-font flex x-center y-items-center ">Discover</div>
+				</div>
+				
+				<div id="menu-Me" class="">
+					<div id="Me_icon" class="img_set"></div>
+					<div id="Me_font" class="menu-font flex x-center y-items-center ">Me</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+<link rel="stylesheet" href="css/nav.css" />
+<link rel="stylesheet" href="css/singal.css" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/container.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/search.css" />
+<link rel="stylesheet" href="css/chat.css" />
+<link rel="stylesheet" href="css/dialogue.css"  />
+<link rel="stylesheet" href="css/discover.css" />
+
+<script type="text/javascript" src="js/lib/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/singal.js" ></script>
+
+<script type="text/javascript" src="js/router.js" ></script>
