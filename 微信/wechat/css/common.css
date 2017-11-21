@@ -63,3 +63,75 @@
 {
 	background-repeat:no-repeat;
 }
+
+
+/*discover 与  me 中的菜单列表*/
+
+.list-bounder
+{
+	width: 100%;
+	padding-top: 1px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+/*列表中的每一个组件*/
+.list-items
+{
+	
+	height: 50px;
+	width: 100%;
+}
+
+/*组件中的每一个横栏*/
+.list-container
+{
+	width: 96%;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.list-left
+{
+	width: 41px;
+	height: 41px;
+}
+
+
+.list-center
+{
+	height: 41px;
+	flex: 1;
+}
+
+.list-right
+{
+	height: 41px;
+	width: 51px;
+}
+
+.list-font
+{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	text-indent: 10px;
+}
+
+.list-photo
+{
+	height: 90%;
+	width: 90%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.btn-photo
+{
+	height: 50%;
+	width: 30%;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+

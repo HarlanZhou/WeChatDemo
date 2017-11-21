@@ -59,16 +59,16 @@
 
 .discover-photo
 {
-	height: 90%;
-	width: 90%;
+	height: 60%;
+	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	
 }
-.btn-photo
+.bt-photo
 {
 	height: 30%;
-	width: 30%;
+	width: 90%;
 	transform: scale(1.5);
 }

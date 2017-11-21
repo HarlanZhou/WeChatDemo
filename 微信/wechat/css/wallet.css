@@ -1,0 +1,85 @@
+#wallet
+{
+	height: 100%;
+	width: 100%;
+	background-color: #F5F5F5 ;
+	overflow: scroll;
+}
+#wallet-header
+{
+	width: 100%;
+	height: 150px;
+	background-color: #515C6B ;
+}
+
+.wallet-container
+{
+	flex: 1;
+}
+
+.wallet-items
+{
+	width: 60%;
+	height: 130px;
+	
+}
+
+.wallet-img
+{
+	height: 50px;
+	width: 50px;
+	
+	margin: 10px 10px 0 10px;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.wallet-font
+{
+	height: 40%;
+	width: 90%;
+	
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+#wallet-center
+{
+	width: 100%;
+	height: 360px;
+	background-color: white ;
+}
+
+.wallet-floor
+{
+	width: 100%;
+	height: 120px;
+}
+.up{
+	width: 100%;
+	height: 60%;
+}
+.down
+{
+	width: 100%;
+	height: 40%;
+	font-family: "微软雅黑";
+	margin-top: 0px;
+}
+.component-font
+{
+	padding-top: 0px;
+}
+
+.wallet-blank
+{
+	height: 30px;
+	width: 100%;
+}

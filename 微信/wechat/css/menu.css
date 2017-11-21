@@ -105,7 +105,8 @@
 	background-image: url(../img/menu/discover_push.svg);
 	background-repeat: no-repeat;
 	background-position: center;
-	transform: scale(0.8);
+	
+
 }
 #menu-Discover:hover > #Discover_font
 {
@@ -134,7 +135,7 @@
 {
 	width: 100%;
 	height: 60%;
-	background-image: url(../img/menu/me_push.svg);
+	background-image: url(../img/menu/我.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 }

@@ -1,0 +1,81 @@
+#me
+{
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5 ;
+	overflow: scroll;
+}
+
+
+#personal-info
+{
+	width: 96%;
+	height: 80px;
+	
+	margin-top: 10px;
+	background-color: white;
+}
+
+#personal-left
+{
+	height: 80%;
+	width: 60px;
+}
+
+#personal-center
+{
+	height: 80%;
+	flex: 1;
+}
+
+#personal-right
+{
+	height: 80%;
+	width: 60px;
+}
+
+#personal-photo
+{
+	height: 100%;
+	width: 95%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#personal-content
+{
+	width: 90%;
+	height: 80%;
+}
+
+#wechatname
+{
+	height: 50%;
+	width: 100%;
+	padding-top: 0px;
+	
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: 600;
+	position: center;
+	
+}
+#wechatno
+{
+	height: 50%;
+	width: 100%;
+	
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: 500;
+}
+
+/*right*/
+#QR{
+	width: 50%;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

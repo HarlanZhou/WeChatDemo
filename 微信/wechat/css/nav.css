@@ -28,13 +28,14 @@
 	font-family: "微软雅黑";
 	font-size: 18px;
 	font-weight: 100;
+	text-align: center;
 }
 
-#nva_back{
+#nav_back{
 	height: 30px;
 	width: 30px;
-	background-image:url(../img/nav/返回.svg);
-	transform: scale(.8);
+	background-image: url(../img/nav/返回.svg);
+	transform: scale(.3);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
